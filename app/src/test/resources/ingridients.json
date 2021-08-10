@@ -1,0 +1,233 @@
+{
+  "status": {
+    "success": true,
+    "statusCode": 200,
+    "message": "success"
+  },
+  "data": [
+    {
+      "id": 10,
+      "title": "Momos",
+      "category_id": 1,
+      "quantity": 10,
+      "url": "2021-08-08T15:30+00Z"
+    },
+    {
+      "id": 10,
+      "title": "Paneer",
+      "category_id": 2,
+      "quantity": 11,
+      "url": "2021-08-08T15:30+00Z"
+    },
+    {
+      "id": 10,
+      "title": "Noodles",
+      "category_id": 3,
+      "quantity": 1,
+      "url": "2021-08-08T15:30+00Z"
+    },
+    {
+      "id": 10,
+      "title": "Chicken Gravy",
+      "category_id": 2,
+      "quantity": 1,
+      "url": "2021-08-08T15:30+00Z"
+    },
+    {
+      "id": 10,
+      "title": "Butter",
+      "category_id": 1,
+      "quantity": 12,
+      "url": "2021-08-08T15:30+00Z"
+    },
+    {
+      "id": 10,
+      "title": "Cheese",
+      "category_id": 2,
+      "quantity": 15,
+      "url": "2021-08-08T15:30+00Z"
+    },
+    {
+      "id": 10,
+      "title": "Beans",
+      "category_id": 1,
+      "quantity": 16,
+      "url": "2021-08-08T15:30+00Z"
+    },
+    {
+      "id": 10,
+      "title": "Top Rice",
+      "category_id": 3,
+      "quantity": 16,
+      "url": "2021-08-08T15:30+00Z"
+    },
+    {
+      "id": 10,
+      "title": "Vinegar",
+      "category_id": 1,
+      "quantity": 17,
+      "url": "2021-08-08T15:30+00Z"
+    },
+    {
+      "id": 10,
+      "title": "Bread",
+      "category_id": 1,
+      "quantity": 17,
+      "url": "2021-08-08T15:30+00Z"
+    },
+    {
+      "id": 10,
+      "title": "Pancake",
+      "category_id": 3,
+      "quantity": 18,
+      "url": "2021-08-08T15:30+00Z"
+    },
+    {
+      "id": 10,
+      "title": "Salad",
+      "category_id": 1,
+      "quantity": 1,
+      "url": "2021-08-08T15:30+00Z"
+    },
+    {
+      "id": 10,
+      "title": "Maska",
+      "category_id": 2,
+      "quantity": 14,
+      "url": "2021-08-08T15:30+00Z"
+    },
+    {
+      "id": 10,
+      "title": "Special extra large fried rice",
+      "category_id": 1,
+      "quantity": 1,
+      "url": "2021-08-08T15:30+00Z"
+    },
+    {
+      "id": 10,
+      "title": "Special extra large fried rice",
+      "category_id": 1,
+      "quantity": 14,
+      "url": "2021-08-08T15:30+00Z"
+    },
+    {
+      "id": 10,
+      "title": "Special extra large fried rice",
+      "category_id": 1,
+      "quantity": 16,
+      "url": "2021-08-08T15:30+00Z"
+    },
+    {
+      "id": 10,
+      "title": "Special extra large fried rice",
+      "category_id": 3,
+      "quantity": 1,
+      "url": "2021-08-08T15:30+00Z"
+    },
+    {
+      "id": 10,
+      "title": "Special extra large fried rice",
+      "category_id": 2,
+      "quantity": 1,
+      "url": "2021-08-08T15:30+00Z"
+    },
+    {
+      "id": 10,
+      "title": "Special extra large fried rice",
+      "category_id": 2,
+      "quantity": 1,
+      "url": "2021-08-08T15:30+00Z"
+    },
+    {
+      "id": 10,
+      "title": "Special extra large fried rice",
+      "category_id": 2,
+      "quantity": 16,
+      "url": "2021-08-08T15:30+00Z"
+    },
+    {
+      "id": 10,
+      "title": "Special extra large fried rice",
+      "category_id": 3,
+      "quantity": 1,
+      "url": "2021-08-08T15:30+00Z"
+    },
+    {
+      "id": 10,
+      "title": "Special extra large fried rice",
+      "category_id": 4,
+      "quantity": 1,
+      "url": "2021-08-08T15:30+00Z"
+    },
+    {
+      "id": 10,
+      "title": "Special extra large fried rice",
+      "category_id": 1,
+      "quantity": 1,
+      "url": "2021-08-08T15:30+00Z"
+    },
+    {
+      "id": 10,
+      "title": "Special extra large fried rice",
+      "category_id": 5,
+      "quantity": 1,
+      "url": "2021-08-08T15:30+00Z"
+    },
+    {
+      "id": 10,
+      "title": "Special extra large fried rice",
+      "category_id": 3,
+      "quantity": 17,
+      "url": "2021-08-08T15:30+00Z"
+    },
+    {
+      "id": 10,
+      "title": "Special extra large fried rice",
+      "category_id": 3,
+      "quantity": 1,
+      "url": "2021-08-08T15:30+00Z"
+    },
+    {
+      "id": 10,
+      "title": "Special extra large fried rice",
+      "category_id": 3,
+      "quantity": 1,
+      "url": "2021-08-08T15:30+00Z"
+    },
+    {
+      "id": 10,
+      "title": "Special extra large fried rice",
+      "category_id": 1,
+      "quantity": 1,
+      "url": "2021-08-08T15:30+00Z"
+    },
+    {
+      "id": 10,
+      "title": "Special extra large fried rice",
+      "category_id": 3,
+      "quantity": 1,
+      "url": "2021-08-08T15:30+00Z"
+    },
+    {
+      "id": 10,
+      "title": "Special extra large fried rice",
+      "category_id": 1,
+      "quantity": 1,
+      "url": "2021-08-08T15:30+00Z"
+    },
+    {
+      "id": 10,
+      "title": "Special extra large fried rice",
+      "category_id": 3,
+      "quantity": 1,
+      "url": "2021-08-08T15:30+00Z"
+    },
+    {
+      "id": 10,
+      "title": "Special extra large fried rice",
+      "category_id": 1,
+      "quantity": 16,
+      "url": "2021-08-08T15:30+00Z"
+    }
+  ]
+}

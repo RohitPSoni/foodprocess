@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Food Process</string>
+    <string name="accept">Accept</string>
+    <string name="rejected">Rejected</string>
+    <string name="search_for_an_item">Search for an item</string>
+    <string name="bento">Bento</string>
+    <string name="main">Main</string>
+    <string name="appetizer">Appetizer</string>
+    <string name="available">Available</string>
+    <string name="ingridient">Show Ingridient</string>
+    <string name="at">at</string>
+    <plurals name="auto_reject_in">
+        <item quantity="one">%d minute</item>
+        <item quantity="other">%d minutes</item>
+    </plurals>
+    <plurals name="items">
+        <item quantity="zero">No item</item>
+        <item quantity="one">%d item</item>
+        <item quantity="other">%d items</item>
+    </plurals>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="ok">OK</string>
+</resources>

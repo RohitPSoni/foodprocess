@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+        <variable
+            name="itemView"
+            type="com.example.orders.ui.acceptorder.viewmodel.ShowOrderItemViewModel" />
+    </data>
+
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_8"
+        app:cardCornerRadius="@dimen/dp_5"
+        app:cardElevation="@dimen/dp_5">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/dp_8">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/txvOrderId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@{'#'+Integer.toString(itemView.itemData.id)}"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/header_1"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@id/guideline1"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="#51:" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/txvOrderTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp_2"
+                android:maxLines="1"
+                android:text="@{itemView.itemData.orderTitle}"
+                android:textSize="@dimen/header_2"
+                app:layout_constraintBottom_toBottomOf="@id/txvOrderId"
+                app:layout_constraintStart_toEndOf="@id/txvOrderId"
+                app:layout_constraintTop_toTopOf="@id/txvOrderId"
+                tools:text="Fried Rice Fried Rice Fried Rice Fried Rice Fried Rice" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/acceptOrder"
+                buttonState="@{itemView.progress}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="@id/guideline2"
+                app:layout_constraintTop_toBottomOf="@id/txvOrderId"
+                tools:text="@string/accept"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/txvQuantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@{'x'+Integer.toString(itemView.itemData.quantity)}"
+                app:layout_constraintBottom_toBottomOf="@id/acceptOrder"
+                app:layout_constraintEnd_toStartOf="@id/acceptOrder"
+                app:layout_constraintTop_toTopOf="@id/acceptOrder"
+                tools:text="x 1"
+                android:layout_marginEnd="@dimen/dp_8"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/autoReject"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@{@plurals/auto_reject_in(itemView.progress, itemView.progress)}"
+                android:textSize="@dimen/header_2"
+                android:textStyle="bold"
+                android:visibility="@{itemView.visibility}"
+                app:layout_constraintEnd_toEndOf="@id/guideline2"
+                app:layout_constraintStart_toStartOf="@id/guideline1"
+                app:layout_constraintTop_toBottomOf="@id/acceptOrder"
+                tools:text="@{@plurals/auto_reject_in(itemView.progress, itemView.progress)}" />
+
+            <com.google.android.material.progressindicator.LinearProgressIndicator
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_5"
+                android:progress="@{itemView.progress}"
+                app:layout_constraintEnd_toEndOf="@id/guideline2"
+                app:layout_constraintStart_toStartOf="@id/guideline1"
+                app:layout_constraintTop_toBottomOf="@id/autoReject"
+                tools:progress="50" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_begin="@dimen/dp_8" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_end="@dimen/dp_8" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</layout>
