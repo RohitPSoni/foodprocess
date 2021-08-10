@@ -1,29 +1,15 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+This Project was done using Rxjava3, Kotlin
 
 ### What is this repository for? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* Accept Order, timeouts
+* 1.0
 
 ### How do I get set up? ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+* [RxJava3](https://github.com/ReactiveX/RxJava)
+* [Koin](https://insert-koin.io/)
+* [RxAndroid](https://github.com/ReactiveX/RxAndroid), 
+* [JUnit5](https://junit.org/junit5/docs/current/user-guide/)
