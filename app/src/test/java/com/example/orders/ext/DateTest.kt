@@ -7,7 +7,7 @@ import java.util.Calendar
 class DateTest {
     @Test
     fun `string to long`(){
-        val value = 1628503200000L
+        val value = 1628523000000L
         val actual = "2021-08-09T15:30+00Z".toLongDate()
         assertEquals(value, actual)
     }
@@ -23,7 +23,7 @@ class DateTest {
     @Test
     fun `Full string to time string`(){
         val actual = "2021-08-09T15:30+00Z"
-        val value = "03:30 PM"
+        val value = "09:00 PM"
         val expected = actual.toTime()
         assertEquals(value, expected)
     }

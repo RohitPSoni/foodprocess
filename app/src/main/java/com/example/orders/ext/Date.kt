@@ -3,6 +3,7 @@ package com.example.orders.ext
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale
+import java.util.TimeZone
 import java.util.concurrent.TimeUnit
 
 const val DEFAULT_DATE_FORMAT = "yyyy-MM-dd'T'HH:mm"
@@ -11,6 +12,7 @@ const val TIME_AND_MINUTE = "hh:mm aa"
 fun String.toLongDate(): Long {
     return runCatching {
         val simpleDateFormat = SimpleDateFormat(DEFAULT_DATE_FORMAT, Locale.getDefault())
+        simpleDateFormat.timeZone = TimeZone.getTimeZone("UTC")
         return simpleDateFormat.parse(this)?.time ?: System.currentTimeMillis()
     }.getOrElse {
         System.currentTimeMillis()
